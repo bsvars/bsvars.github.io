@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "bsvars"
+  navbar:
+    right:
+      - icon: github
+        url:  https://github.com/bsvars
+      - icon: person
+        url: https://github.com/donotdespair
+      - icon: bi-mastodon
+        url: https://fosstodon.org/@bsvars
+      - icon: cloud
+        url: https://bsky.app/profile/bsvars.bsky.social
+      - icon: envelope
+        href: mailto:bsvars@pm.me
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

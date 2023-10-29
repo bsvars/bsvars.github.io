@@ -1,0 +1,25 @@
+---
+title: "bsvars"
+---
+
+We develop **R** packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in **cpp**.
+
+## bsvars
+
+> An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models
+>
+> by [Tomasz Woźniak](https://github.com/donotdespair)
+>
+> This package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.
+>
+> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.github.io/bsvars/) [[repo]](https://github.com/bsvars/bsvars)
+
+## bsvarTVPs
+
+> An **R** package for Bayesian Estimation of Heteroskedastic Structural Vector Autoregressions with Markov-Switching and Time-Varying Identification of the Structural Matrix
+>
+> by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker)
+>
+> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) *What do Data Say About Time-Variation in Monetary Policy Shock Identification?*
+> 
+> [[repo]](https://github.com/bsvars/bsvarTVPs)
