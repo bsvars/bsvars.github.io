@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "bsvars",
+    "section": "",
+    "text": "We develop R packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in cpp."
+  },
+  {
+    "objectID": "index.html#bsvars",
+    "href": "index.html#bsvars",
+    "title": "bsvars",
+    "section": "bsvars",
+    "text": "bsvars\n\nAn R package for Bayesian Estimation of Structural Vector Autoregressive Models\nby Tomasz Woźniak\nThis package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.\n[CRAN] [website] [repo]"
+  },
+  {
+    "objectID": "index.html#bsvartvps",
+    "href": "index.html#bsvartvps",
+    "title": "bsvars",
+    "section": "bsvarTVPs",
+    "text": "bsvarTVPs\n\nAn R package for Bayesian Estimation of Heteroskedastic Structural Vector Autoregressions with Markov-Switching and Time-Varying Identification of the Structural Matrix\nby Tomasz Woźniak and Annika Camehl\nEfficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) What do Data Say About Time-Variation in Monetary Policy Shock Identification?\n[repo]"
+  }
+]
