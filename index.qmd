@@ -10,9 +10,11 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair)
 >
+> bsvars v2.1.0 is now on [CRAN](https://cran.r-project.org/package=bsvars)
+>
 > This package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.
 >
-> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.github.io/bsvars/) [[repo]](https://github.com/bsvars/bsvars)
+> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.github.io/bsvars/) [[repo]](https://github.com/bsvars/bsvars) [[paper #1]](https://doi.org/10.1016/j.jedc.2020.103862) [[working paper #2]](https://doi.org/10.13140%2FRG.2.2.19492.55687)
 
 ## bsvarTVPs
 
@@ -20,6 +22,6 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker)
 >
-> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) *What do Data Say About Time-Variation in Monetary Policy Shock Identification?*
+> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) *Time-Varying Identification of Monetary Policy Shocks*
 > 
-> [[repo]](https://github.com/bsvars/bsvarTVPs)
+> [[repo]](https://github.com/bsvars/bsvarTVPs) [[working paper]](https://arxiv.org/abs/2311.05883)
