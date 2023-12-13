@@ -10,7 +10,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair)
 >
-> bsvars v2.1.0 is now on [CRAN](https://cran.r-project.org/package=bsvars)
+> **bsvars** v2.1.0 is now on [CRAN](https://cran.r-project.org/package=bsvars)
 >
 > This package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.
 >
