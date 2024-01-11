@@ -19,5 +19,12 @@
     "title": "bsvars",
     "section": "bsvarTVPs",
     "text": "bsvarTVPs\n\nAn R package for Bayesian Estimation of Heteroskedastic Structural Vector Autoregressions with Markov-Switching and Time-Varying Identification of the Structural Matrix\nby Tomasz Woźniak and Annika Camehl\nEfficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) Time-Varying Identification of Monetary Policy Shocks\n[repo] [working paper]"
+  },
+  {
+    "objectID": "index.html#bsvarsigns",
+    "href": "index.html#bsvarsigns",
+    "title": "bsvars",
+    "section": "bsvarSIGNs",
+    "text": "bsvarSIGNs\n\nAn R package for Bayesian Estimation of Structural Vector Autoregressive Models Identified by Sign and Narrative Restrictions\nby Xiaolei Wang and Tomasz Woźniak\nImplements efficient algorithms for the Bayesian estimation of Stuructural Vector Autoregressive models identified by sign and narrative restrictions following Rubio-Ramírez, Waggoner & Zha (2010) and Antolín-Díaz & Rubio-Ramírez (2018).\n[repo]"
   }
 ]
