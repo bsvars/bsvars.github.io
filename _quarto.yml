@@ -4,6 +4,9 @@ project:
 
 website:
   title: "bsvars"
+  favicon: bsvars.png
+  sidebar:
+    logo: bsvars.png
   navbar:
     right:
       - icon: github
