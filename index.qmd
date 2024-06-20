@@ -4,17 +4,19 @@ title: "bsvars"
 
 We develop **R** packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in **cpp**.
 
-## bsvars 
+## [bsvars](https://bsvars.github.io/bsvars/)
 
 > An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair)
 >
-> **bsvars** v2.1.0 is now on [CRAN](https://cran.r-project.org/package=bsvars)
+> **bsvars** version 3.0 is now on [CRAN](https://cran.r-project.org/package=bsvars)
 >
-> This package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.
+> Provides fast and efficient procedures for Bayesian analysis of Structural Vector Autoregressions. This package estimates a wide range of models, including homo-, heteroskedastic, and non-normal specifications. Structural models can be identified by adjustable exclusion restrictions, time-varying volatility, or non-normality. They all include a flexible three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses such as impulse responses, forecast error variance and historical decompositions, forecasting, verification of heteroskedasticity, non-normality, and hypotheses on autoregressive parameters, as well as analyses of structural shocks, volatilities, and fitted values. Beautiful plots, informative summary functions, and extensive documentation complement all this. The implemented techniques align closely with those presented in [Lütkepohl, Shang, Uzeda, & Woźniak (2024)](http://doi.org/10.48550/arXiv.2404.11057), [Lütkepohl & Woźniak (2020)](http://doi.org/10.1016/j.jedc.2020.103862), and [Song & Woźniak (2021)](http://doi.org/10.1093/acrefore/9780190625979.013.174).
 >
-> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.github.io/bsvars/) [[repo]](https://github.com/bsvars/bsvars) [[paper #1]](https://doi.org/10.1016/j.jedc.2020.103862) [[working paper #2]](https://doi.org/10.13140%2FRG.2.2.19492.55687)
+> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.github.io/bsvars/) [[repo]](https://github.com/bsvars/bsvars)\
+> [[Lütkepohl, Shang, Uzeda, & Woźniak (2024)]](http://doi.org/10.48550/arXiv.2404.11057) [[Lütkepohl & Woźniak (2020)]](https://doi.org/10.1016/j.jedc.2020.103862) [Song & Woźniak (2021)](http://doi.org/10.1093/acrefore/9780190625979.013.174) [[Woźniak & Droumaguet (2015)]](https://doi.org/10.13140%2FRG.2.2.19492.55687)\
+> [[presentation #1]](https://bsvars.github.io/2024-05-bsvars-mcxs/) [[presentation #2]](https://bayesian-econometrics-2023.github.io/be23-lecture8/)
 
 ## bsvarTVPs
 
@@ -22,16 +24,26 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker)
 >
-> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl & Woźniak (2023) *Time-Varying Identification of Monetary Policy Shocks*
+> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by [Camehl & Woźniak (2024)](https://arxiv.org/abs/2311.05883) *Time-Varying Identification of Monetary Policy Shocks*.
 > 
 > [[repo]](https://github.com/bsvars/bsvarTVPs) [[working paper]](https://arxiv.org/abs/2311.05883)
 
 ## bsvarSIGNs
 
-> An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models Identified by Sign and Narrative Restrictions
+> An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models Identified by Sign, Zero, and Narrative Restrictions
 >
 > by [Xiaolei Wang](https://github.com/adamwang15) and [Tomasz Woźniak](https://github.com/donotdespair)
 >
-> Implements efficient algorithms for the Bayesian estimation of Stuructural Vector Autoregressive models identified by sign and narrative restrictions following Rubio-Ramírez, Waggoner & Zha (2010) and Antolín-Díaz & Rubio-Ramírez (2018). 
+> Implements efficient algorithms for the Bayesian estimation of Stuructural Vector Autoregressive models identified by sign and narrative restrictions following [Rubio-Ramírez, Waggoner & Zha (2010)](https://doi.org/10.1111/j.1467-937X.2009.00578.x), [Antolín-Díaz & Rubio-Ramírez (2018)](https://doi.org/10.1257/aer.20161852), and [Arias, Rubio-Ramírez & Waggoner (2018)](https://doi.org/10.3982/ECTA14468). 
 >
 > [[repo]](https://github.com/bsvars/bsvarSIGNs)
+
+## bvarPANELs
+
+> An **R** package for Forecasting with Bayesian Hierarchical Panel Vector Autoregressions
+>
+> by [Tomasz Woźniak](https://github.com/donotdespair) and Miguel Sanchez-Martinez
+> 
+> Forecasting a multi-country time series panel data using Bayesian Vector Autoregressions with a three-level country-global hierarchical prior structure. The package is developed for the International Labour Organization.
+>
+> [[private repo]](https://github.com/bsvars/bvarPANELs)
