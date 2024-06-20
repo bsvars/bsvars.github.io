@@ -144,6 +144,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#bsvars" id="toc-bsvars" class="nav-link active" data-scroll-target="#bsvars">bsvars</a></li>
   <li><a href="#bsvartvps" id="toc-bsvartvps" class="nav-link" data-scroll-target="#bsvartvps">bsvarTVPs</a></li>
   <li><a href="#bsvarsigns" id="toc-bsvarsigns" class="nav-link" data-scroll-target="#bsvarsigns">bsvarSIGNs</a></li>
+  <li><a href="#bvarpanels" id="toc-bvarpanels" class="nav-link" data-scroll-target="#bvarpanels">bvarPANELs</a></li>
   </ul>
 </nav>
     </div>
@@ -169,13 +170,15 @@ ul.task-list li input[type="checkbox"] {
 
 <p>We develop <strong>R</strong> packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in <strong>cpp</strong>.</p>
 <section id="bsvars" class="level2">
-<h2 class="anchored" data-anchor-id="bsvars">bsvars</h2>
+<h2 class="anchored" data-anchor-id="bsvars"><a href="https://bsvars.github.io/bsvars/">bsvars</a></h2>
 <blockquote class="blockquote">
 <p>An <strong>R</strong> package for Bayesian Estimation of Structural Vector Autoregressive Models</p>
 <p>by <a href="https://github.com/donotdespair">Tomasz Woźniak</a></p>
-<p><strong>bsvars</strong> v2.1.0 is now on <a href="https://cran.r-project.org/package=bsvars">CRAN</a></p>
-<p>This package provides efficient algorithms for Bayesian estimation of Structural Vector Autoregressive (SVAR) models via Markov chain Monte Carlo methods. A wide range of SVAR models is considered, including homo- and heteroskedastic specifications and those with non-normal structural shocks. All models include three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses with a variety of tools and methods.</p>
-<p><a href="https://cran.r-project.org/package=bsvars">[CRAN]</a> <a href="https://bsvars.github.io/bsvars/">[website]</a> <a href="https://github.com/bsvars/bsvars">[repo]</a> <a href="https://doi.org/10.1016/j.jedc.2020.103862">[paper #1]</a> <a href="https://doi.org/10.13140%2FRG.2.2.19492.55687">[working paper #2]</a></p>
+<p><strong>bsvars</strong> version 3.0 is now on <a href="https://cran.r-project.org/package=bsvars">CRAN</a></p>
+<p>Provides fast and efficient procedures for Bayesian analysis of Structural Vector Autoregressions. This package estimates a wide range of models, including homo-, heteroskedastic, and non-normal specifications. Structural models can be identified by adjustable exclusion restrictions, time-varying volatility, or non-normality. They all include a flexible three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses such as impulse responses, forecast error variance and historical decompositions, forecasting, verification of heteroskedasticity, non-normality, and hypotheses on autoregressive parameters, as well as analyses of structural shocks, volatilities, and fitted values. Beautiful plots, informative summary functions, and extensive documentation complement all this. The implemented techniques align closely with those presented in <a href="http://doi.org/10.48550/arXiv.2404.11057">Lütkepohl, Shang, Uzeda, &amp; Woźniak (2024)</a>, <a href="http://doi.org/10.1016/j.jedc.2020.103862">Lütkepohl &amp; Woźniak (2020)</a>, and <a href="http://doi.org/10.1093/acrefore/9780190625979.013.174">Song &amp; Woźniak (2021)</a>.</p>
+<p><a href="https://cran.r-project.org/package=bsvars">[CRAN]</a> <a href="https://bsvars.github.io/bsvars/">[website]</a> <a href="https://github.com/bsvars/bsvars">[repo]</a><br>
+<a href="http://doi.org/10.48550/arXiv.2404.11057">[Lütkepohl, Shang, Uzeda, &amp; Woźniak (2024)]</a> <a href="https://doi.org/10.1016/j.jedc.2020.103862">[Lütkepohl &amp; Woźniak (2020)]</a> <a href="http://doi.org/10.1093/acrefore/9780190625979.013.174">Song &amp; Woźniak (2021)</a> <a href="https://doi.org/10.13140%2FRG.2.2.19492.55687">[Woźniak &amp; Droumaguet (2015)]</a><br>
+<a href="https://bsvars.github.io/2024-05-bsvars-mcxs/">[presentation #1]</a> <a href="https://bayesian-econometrics-2023.github.io/be23-lecture8/">[presentation #2]</a></p>
 </blockquote>
 </section>
 <section id="bsvartvps" class="level2">
@@ -183,17 +186,26 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>An <strong>R</strong> package for Bayesian Estimation of Heteroskedastic Structural Vector Autoregressions with Markov-Switching and Time-Varying Identification of the Structural Matrix</p>
 <p>by <a href="https://github.com/donotdespair">Tomasz Woźniak</a> and <a href="https://github.com/aschnuecker">Annika Camehl</a></p>
-<p>Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by Camehl &amp; Woźniak (2023) <em>Time-Varying Identification of Monetary Policy Shocks</em></p>
+<p>Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by <a href="https://arxiv.org/abs/2311.05883">Camehl &amp; Woźniak (2024)</a> <em>Time-Varying Identification of Monetary Policy Shocks</em>.</p>
 <p><a href="https://github.com/bsvars/bsvarTVPs">[repo]</a> <a href="https://arxiv.org/abs/2311.05883">[working paper]</a></p>
 </blockquote>
 </section>
 <section id="bsvarsigns" class="level2">
 <h2 class="anchored" data-anchor-id="bsvarsigns">bsvarSIGNs</h2>
 <blockquote class="blockquote">
-<p>An <strong>R</strong> package for Bayesian Estimation of Structural Vector Autoregressive Models Identified by Sign and Narrative Restrictions</p>
+<p>An <strong>R</strong> package for Bayesian Estimation of Structural Vector Autoregressive Models Identified by Sign, Zero, and Narrative Restrictions</p>
 <p>by <a href="https://github.com/adamwang15">Xiaolei Wang</a> and <a href="https://github.com/donotdespair">Tomasz Woźniak</a></p>
-<p>Implements efficient algorithms for the Bayesian estimation of Stuructural Vector Autoregressive models identified by sign and narrative restrictions following Rubio-Ramírez, Waggoner &amp; Zha (2010) and Antolín-Díaz &amp; Rubio-Ramírez (2018).</p>
+<p>Implements efficient algorithms for the Bayesian estimation of Stuructural Vector Autoregressive models identified by sign and narrative restrictions following <a href="https://doi.org/10.1111/j.1467-937X.2009.00578.x">Rubio-Ramírez, Waggoner &amp; Zha (2010)</a>, <a href="https://doi.org/10.1257/aer.20161852">Antolín-Díaz &amp; Rubio-Ramírez (2018)</a>, and <a href="https://doi.org/10.3982/ECTA14468">Arias, Rubio-Ramírez &amp; Waggoner (2018)</a>.</p>
 <p><a href="https://github.com/bsvars/bsvarSIGNs">[repo]</a></p>
+</blockquote>
+</section>
+<section id="bvarpanels" class="level2">
+<h2 class="anchored" data-anchor-id="bvarpanels">bvarPANELs</h2>
+<blockquote class="blockquote">
+<p>An <strong>R</strong> package for Forecasting with Bayesian Hierarchical Panel Vector Autoregressions</p>
+<p>by <a href="https://github.com/donotdespair">Tomasz Woźniak</a> and Miguel Sanchez-Martinez</p>
+<p>Forecasting a multi-country time series panel data using Bayesian Vector Autoregressions with a three-level country-global hierarchical prior structure. The package is developed for the International Labour Organization.</p>
+<p><a href="https://github.com/bsvars/bvarPANELs">[private repo]</a></p>
 </blockquote>
 
 
