@@ -13,6 +13,10 @@ website:
         url:  https://github.com/bsvars
       - icon: person
         url: https://github.com/donotdespair
+      - icon: twitter
+        url: https://x.com/bsvars
+      - icon: instagram
+        url: https://www.instagram.com/bsvarsoninsta/
       - icon: bi-mastodon
         url: https://fosstodon.org/@bsvars
       - icon: cloud
