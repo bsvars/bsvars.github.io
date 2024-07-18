@@ -8,11 +8,9 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 <a href="https://bsvars.github.io/bsvars/"><img src="bsvars.png" align="right" height="139" alt="bsvarSIGNs website" /></a>
 
-
 > An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models
 >
-> [![CRAN version](http://www.r-pkg.org/badges/version/bsvars)](https://CRAN.R-project.org/package=bsvars)
-[![R-CMD-check](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml)
+> <a href="https://cran.r-project.org/package=bsvars"> <img src="https://www.r-pkg.org/badges/version/bsvars" width="76" height="20"/> </a>   [![R-CMD-check](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml)
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair)
 >
@@ -28,7 +26,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 > An **R** package for Bayesian Estimation of Structural Vector Autoregressions Identified by Sign, Zero, and Narrative Restrictions
 >
-> [![R-CMD-check](https://github.com/bsvars/bsvarSIGNs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bsvarSIGNs/actions/workflows/R-CMD-check.yaml)
+> [![R-CMD-check](https://github.com/bsvars/bsvarSIGNs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bsvarSIGNs/actions/workflows/R-CMD-check.yaml).
 >
 > by [Xiaolei Wang](https://github.com/adamwang15) and [Tomasz Woźniak](https://github.com/donotdespair)
 >
