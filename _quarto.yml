@@ -6,9 +6,9 @@ project:
 
 website:
   title: "bsvars.org"
-  favicon: bsvars.png
+  favicon: bsvars.org.png
   sidebar:
-    logo: bsvars.png
+    logo: bsvars.org.png
   navbar:
     right:
       - icon: github

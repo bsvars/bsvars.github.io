@@ -1,5 +1,5 @@
 ---
-title: "bsvars.org"
+title: "bsvars"
 ---
 
 We develop **R** packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in **cpp**.
