@@ -4,14 +4,14 @@ title: "bsvars"
 
 We develop **R** packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in **cpp**.
 
-<a href="mailto:bsvars@pm.me"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" width="40" height="40"/> </a> 
+<a href="mailto:contact@bsvars.org"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" width="40" height="40"/> </a> 
 <a href="https://github.com/bsvars/bsvars"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" width="40" height="40"/> </a> 
-<a rel="me" href="https://fosstodon.org/@bsvars"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="50" height="50"/> </a>
-<a href="https://bsky.app/profile/bsvars.bsky.social"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/cloud.svg" width="50" height="50"/> </a>
+<a rel="me" href="https://fosstodon.org/@bsvars"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="40" height="40"/> </a>
+<a href="https://bsky.app/profile/bsvars.bsky.social"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" width="40" height="40"/> </a>
 
 # bsvars 
 
-<a href="https://bsvars.github.io/bsvars/"><img src="bsvars.png" align="right" height="139" alt="bsvarSIGNs website" /></a>
+<a href="https://bsvars.org/bsvars/"><img src="bsvars.png" align="right" height="139" alt="bsvarSIGNs website" /></a>
 
 > An **R** package for Bayesian Estimation of Structural Vector Autoregressive Models
 >
@@ -35,7 +35,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 # bsvarSIGNs 
 
-<a href="https://bsvars.github.io/bsvarSIGNs/"><img src="bsvarSIGNs.png" align="right" height="139" alt="bsvarSIGNs website" /></a>
+<a href="https://bsvars.org/bsvarSIGNs/"><img src="bsvarSIGNs.png" align="right" height="139" alt="bsvarSIGNs website" /></a>
 
 > An **R** package for Bayesian Estimation of Structural Vector Autoregressions Identified by Sign, Zero, and Narrative Restrictions
 >

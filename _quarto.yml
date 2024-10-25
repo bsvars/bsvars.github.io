@@ -13,14 +13,8 @@ website:
     right:
       - icon: github
         url:  https://github.com/bsvars
-      - icon: person
-        url: https://github.com/donotdespair
-      - icon: bi-mastodon
-        url: https://fosstodon.org/@bsvars
-      - icon: cloud
-        url: https://bsky.app/profile/bsvars.bsky.social
       - icon: envelope
-        href: mailto:bsvars@pm.me
+        href: mailto:contact@bsvars.org
 
 format:
   html:
