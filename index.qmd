@@ -25,6 +25,8 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.org/bsvars/) [[vignette]](http://doi.org/10.48550/arXiv.2410.15090) [[repo]](https://github.com/bsvars/bsvars)\
 >
 > **Presentations**\
+> [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
+> [[Forecasting for Social Good](https://www.f4sg.org/) [2024-12 featuring **bsvars** 3.2 and **bsvarSIGNs** 1.0.1](https://bsvars.org/2024-12-F4SG/)]\
 > [[Bayesian Econometrics students 2024-10 featuring **bsvars** 3.1]](https://bsvars.org/2024-10-be24-bsvars/)\
 > [[QuantEcon](https://quantecon.org/) [2024-08 featuring **bsvars** 3.1 and **bsvarSIGNs** 1.0.1](https://bsvars.github.io/2024-08-bsvars-QuantEcon/)]\
 > [[Monash University](https://www.monash.edu/business/ebs) [2024-08 featuring **bsvars** 3.1 and **bsvarSIGNs** 1.0](https://bsvars.github.io/2024-08-bsvars-monash/)]\
@@ -50,6 +52,8 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > [[CRAN]](https://cran.r-project.org/package=bsvarSIGNs) [[website]](https://bsvars.org/bsvarSIGNs/) [[repo]](https://github.com/bsvars/bsvarSIGNs)
 >
 > **Presentations**\
+> [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
+> [[Forecasting for Social Good](https://www.f4sg.org/) [2024-12 featuring **bsvars** 3.2 and **bsvarSIGNs** 1.0.1](https://bsvars.org/2024-12-F4SG/)]\
 > [[Bayesian Econometrics students 2024-10 featuring **bsvarSIGNs** 1.0.1]](https://bsvars.org/2024-10-be24-bsvarSIGNs/)\
 > [[QuantEcon](https://quantecon.org/) [2024-08 featuring **bsvars** 3.1 and **bsvarSIGNs** 1.0.1](https://bsvars.github.io/2024-08-bsvars-QuantEcon/)]\
 > [[Monash University](https://www.monash.edu/business/ebs) [2024-08 featuring **bsvars** 3.1 and **bsvarSIGNs** 1.0](https://bsvars.github.io/2024-08-bsvars-monash/)]\
