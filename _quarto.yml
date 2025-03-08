@@ -3,7 +3,7 @@ project:
   output-dir: docs
   resources:
     - CNAME
-    - "extra/bvarPANELs_0.1.pdf"
+    - "extra/bvarPANELs_0.2.pdf"
 
 website:
   title: "bsvars.org"
