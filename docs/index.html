@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#bsvars" id="toc-bsvars" class="nav-link active" data-scroll-target="#bsvars">bsvars</a></li>
   <li><a href="#bsvarsigns" id="toc-bsvarsigns" class="nav-link" data-scroll-target="#bsvarsigns">bsvarSIGNs</a></li>
-  <li><a href="#bvarpanels" id="toc-bvarpanels" class="nav-link" data-scroll-target="#bvarpanels">bvarPANELs</a></li>
+  <li><a href="#bpvars" id="toc-bpvars" class="nav-link" data-scroll-target="#bpvars">bpvars</a></li>
   <li><a href="#bsvartvps" id="toc-bsvartvps" class="nav-link" data-scroll-target="#bsvartvps">bsvarTVPs</a></li>
   </ul>
 </nav>
@@ -204,15 +204,16 @@ ul.task-list li input[type="checkbox"] {
 </p>
 </blockquote>
 </section>
-<section id="bvarpanels" class="level1">
-<h1>bvarPANELs</h1>
-<p><a href="https://bsvars.org/bvarPANELs/"><img src="bvarPANELs.png" align="right" height="139" alt="bvarPANELs website"></a></p>
+<section id="bpvars" class="level1">
+<h1>bpvars</h1>
+<p><a href="https://bsvars.org/bpvars/"><img src="bpvars.png" align="right" height="139" alt="bpvars website"></a></p>
 <blockquote class="blockquote">
-<p>An <strong>R</strong> package for Forecasting with Bayesian Hierarchical Panel Vector Autoregressions</p>
+<p>An <strong>R</strong> package for Forecasting with Bayesian Panel Vector Autoregressions</p>
 <p>by <a href="https://github.com/donotdespair">Tomasz Woźniak</a> and Miguel Sanchez-Martinez</p>
-<p><a href="https://github.com/bsvars/bvarPANELs/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/bsvars/bvarPANELs/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a>.</p>
-<p>Provides Bayesian estimation and forecasting of dynamic panel data using Bayesian Hierarchical Panel Vector Autoregressions (VARs). The model includes country-specific VARs that share a global prior distribution. Under this prior expected value, each country’s system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. Beautiful plots, informative summary functions, and extensive documentation complement all this. An extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in <strong>C++</strong>. The <strong>bvarPANELs</strong> package is aligned regarding objects, workflows, and code structure with the <strong>R</strong> packages <strong>bsvars</strong> by <a href="http://doi.org/10.32614/CRAN.package.bsvars">Woźniak (2024)</a> and <strong>bsvarSIGNs</strong> by <a href="http://doi.org/10.32614/CRAN.package.bsvarSIGNs">Wang &amp; Woźniak (2025)</a>, and they constitute an integrated toolset.</p>
-<p><a href="https://github.com/bsvars/bvarPANELs">[repo]</a> <a href="https://bsvars.org/bvarPANELs/">[website]</a> <a href="extra/bvarPANELs_0.2.pdf">[manual]</a> <a href="https://bsvars.org/bvarPANELs/#resources">[resources]</a></p>
+<p><a href="https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml"><img src="https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml/badge.svg" class="img-fluid" alt="R-CMD-check"></a>.</p>
+<p>Provides Bayesian estimation and forecasting of dynamic panel data using Bayesian Panel Vector Autoregressions with hierarchical prior distributions. The model includes country-specific VARs that share a global prior distribution. Under this prior expected value, each country’s system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. Beautiful plots, informative summary functions, and extensive documentation complement all this. An extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in <strong>C++</strong>. The <strong>bpvars</strong> package is aligned regarding objects, workflows, and code structure with the <strong>R</strong> packages <strong>bsvars</strong> by <a href="http://doi.org/10.32614/CRAN.package.bsvars">Woźniak (2024)</a> and <strong>bsvarSIGNs</strong> by <a href="http://doi.org/10.32614/CRAN.package.bsvarSIGNs">Wang &amp; Woźniak (2025)</a>, and they constitute an integrated toolset.</p>
+<p>The <strong>bpvars</strong> packed was formerly known as <strong>bvarPANELs</strong>.</p>
+<p><a href="https://github.com/bsvars/bpvars">[repo]</a> <a href="https://bsvars.org/bpvars/">[website]</a> <a href="extra/bvarPANELs_0.2.pdf">[manual]</a> <a href="https://bsvars.org/bpvars/#resources">[resources]</a></p>
 <p><strong>Presentations</strong><br>
 [<a href="https://www.ilo.org/">International Labour Organization</a> <a href="https://bsvars.org/2025-03-bvarPANELs-ilo/">2025-03 featuring <strong>bvarPANELs</strong> 0.2</a>]<br>
 </p>

@@ -69,19 +69,21 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 
 
-# bvarPANELs
+# bpvars
 
-<a href="https://bsvars.org/bvarPANELs/"><img src="bvarPANELs.png" align="right" height="139" alt="bvarPANELs website" /></a>
+<a href="https://bsvars.org/bpvars/"><img src="bpvars.png" align="right" height="139" alt="bpvars website" /></a>
 
-> An **R** package for Forecasting with Bayesian Hierarchical Panel Vector Autoregressions
+> An **R** package for Forecasting with Bayesian Panel Vector Autoregressions
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair) and Miguel Sanchez-Martinez
 > 
-> [![R-CMD-check](https://github.com/bsvars/bvarPANELs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bvarPANELs/actions/workflows/R-CMD-check.yaml).
+> [![R-CMD-check](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml).
 >
-> Provides Bayesian estimation and forecasting of dynamic panel data using Bayesian Hierarchical Panel Vector Autoregressions (VARs). The model includes country-specific VARs that share a global prior distribution. Under this prior expected value, each country's system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. Beautiful plots, informative summary functions, and extensive documentation complement all this. An extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in **C++**. The **bvarPANELs** package is aligned regarding objects, workflows, and code structure with the **R** packages **bsvars** by [Woźniak (2024)](http://doi.org/10.32614/CRAN.package.bsvars) and **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
+> Provides Bayesian estimation and forecasting of dynamic panel data using Bayesian Panel Vector Autoregressions with hierarchical prior distributions. The model includes country-specific VARs that share a global prior distribution. Under this prior expected value, each country's system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. Beautiful plots, informative summary functions, and extensive documentation complement all this. An extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in **C++**. The **bpvars** package is aligned regarding objects, workflows, and code structure with the **R** packages **bsvars** by [Woźniak (2024)](http://doi.org/10.32614/CRAN.package.bsvars) and **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
 >
-> [[repo]](https://github.com/bsvars/bvarPANELs) [[website]](https://bsvars.org/bvarPANELs/) [[manual]](extra/bvarPANELs_0.2.pdf) [[resources]](https://bsvars.org/bvarPANELs/#resources)
+> The **bpvars** packed was formerly known as **bvarPANELs**.
+> 
+> [[repo]](https://github.com/bsvars/bpvars) [[website]](https://bsvars.org/bpvars/) [[manual]](extra/bvarPANELs_0.2.pdf) [[resources]](https://bsvars.org/bpvars/#resources)
 >
 > **Presentations**\
 > [[International Labour Organization](https://www.ilo.org/) [2025-03 featuring **bvarPANELs** 0.2](https://bsvars.org/2025-03-bvarPANELs-ilo/)]\
