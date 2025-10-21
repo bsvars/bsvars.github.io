@@ -20,9 +20,9 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > <a href="https://cran.r-project.org/package=bsvars"> <img src="https://www.r-pkg.org/badges/version/bsvars" width="76" height="20"/> </a> 
 <a href="https://cran.r-project.org/package=bsvars"> <img src="http://cranlogs.r-pkg.org/badges/grand-total/bsvars" width="108" height="20"/> </a>  [![R-CMD-check](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bsvars/actions/workflows/R-CMD-check.yaml)
 >
-> Provides fast and efficient procedures for Bayesian analysis of Structural Vector Autoregressions. This package estimates a wide range of models, including homo-, heteroskedastic, and non-normal specifications. Structural models can be identified by adjustable exclusion restrictions, time-varying volatility, or non-normality. They all include a flexible three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses such as impulse responses, forecast error variance and historical decompositions, forecasting, verification of heteroskedasticity, non-normality, and hypotheses on autoregressive parameters, as well as analyses of structural shocks, volatilities, and fitted values. Beautiful plots, informative summary functions, and extensive documentation including the vignette by [Woźniak (2024)](http://doi.org/10.48550/arXiv.2410.15090) complement all this. The implemented techniques align closely with those presented in [Lütkepohl, Shang, Uzeda, & Woźniak (2024)](http://doi.org/10.48550/arXiv.2404.11057), [Lütkepohl & Woźniak (2020)](http://doi.org/10.1016/j.jedc.2020.103862), and [Song & Woźniak (2021)](http://doi.org/10.1093/acrefore/9780190625979.013.174). The **bsvars** package is aligned regarding objects, workflows, and code structure with the **R** package **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
+> Provides fast and efficient procedures for Bayesian analysis of Structural Vector Autoregressions. This package estimates a wide range of models, including homo-, heteroskedastic, and non-normal specifications. Structural models can be identified by adjustable exclusion restrictions, time-varying volatility, or non-normality. They all include a flexible three-level equation-specific local-global hierarchical prior distribution for the estimated level of shrinkage for autoregressive and structural parameters. Additionally, the package facilitates predictive and structural analyses such as impulse responses, forecast error variance and historical decompositions, forecasting, verification of heteroskedasticity, non-normality, and hypotheses on autoregressive parameters, as well as analyses of structural shocks, volatilities, and fitted values. Beautiful plots, informative summary functions, and extensive documentation including the vignette by [Woźniak (2024)](http://doi.org/10.48550/arXiv.2410.15090) complement all this. The implemented techniques align closely with those presented in [Lütkepohl, Shang, Uzeda, & Woźniak (2025)](https://doi.org/10.1016/j.jeconom.2025.106107), [Lütkepohl & Woźniak (2020)](http://doi.org/10.1016/j.jedc.2020.103862), and [Song & Woźniak (2021)](http://doi.org/10.1093/acrefore/9780190625979.013.174). The **bsvars** package is aligned regarding objects, workflows, and code structure with the **R** package **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
 >
-> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.org/bsvars/) [[vignette]](http://doi.org/10.48550/arXiv.2410.15090) [[manual]](https://cran.r-project.org/web/packages/bsvars/bsvars.pdf) [[resources]](https://bsvars.org/bsvars/#resources) [[repo]](https://github.com/bsvars/bsvars)\
+> [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.org/bsvars/) [[vignette]](http://doi.org/10.48550/arXiv.2410.15090) [[manual]](https://cran.r-project.org/web/packages/bsvars/bsvars.pdf) [[resources]](https://bsvars.org/bsvars/#resources) [[repo]](https://github.com/bsvars/bsvars) [[Journal of Econometrics paper]](https://doi.org/10.1016/j.jeconom.2025.106107)\
 >
 > **Youtube Recordings**\
 > [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
@@ -59,6 +59,9 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
 >
 > **Recent Presentations**\
+> [[Quantlab](https://quantilab.github.io/) [2025-07 featuring **bsvarSIGNs** 2.0](https://bsvars.org/2025-07-28-QuantLab/)]\
+> [[IIF Workshop on Open Source Forecasting](https://event.nectric.com.au/iif-osf/) [2025-06 featuring **bsvarSIGNs** 2.0](https://bsvars.org/2025-06-iifosf/)]\
+> [[Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine) [2025-03 featuring **bsvarSIGNs** 2.0](https://bsvars.org/2025-03-bsvarSIGNs-w4UKR/)]\
 > [[Statistical Society of Australia](https://statsoc.org.au/) [2025-02 featuring **bsvarSIGNs** 2.0](https://bsvars.org/2025-02-DiCook/)]\
 > [[Szkoła Główna Handlowa](https://www.sgh.waw.pl/) [2024-12 featuring **bsvars** 3.2 and **bsvarSIGNs** 1.0.1](https://bsvars.org/2024-12-sgh/)]\
 > [[Uniwersytet Warszawski](https://www.wne.uw.edu.pl/) [2024-12 featuring **bsvars** 3.2 and **bsvarSIGNs** 1.0.1](https://bsvars.org/2024-12-uwwne/)]\
@@ -75,13 +78,11 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 > An **R** package for Forecasting with Bayesian Panel Vector Autoregressions
 >
-> by [Tomasz Woźniak](https://github.com/donotdespair) and Miguel Sanchez-Martinez
+> by [Tomasz Woźniak](https://github.com/donotdespair)
 > 
 > [![R-CMD-check](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml).
 >
 > Provides Bayesian estimation and forecasting of dynamic panel data using Bayesian Panel Vector Autoregressions with hierarchical prior distributions. The model includes country-specific VARs that share a global prior distribution. Under this prior expected value, each country's system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. Beautiful plots, informative summary functions, and extensive documentation complement all this. An extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in **C++**. The **bpvars** package is aligned regarding objects, workflows, and code structure with the **R** packages **bsvars** by [Woźniak (2024)](http://doi.org/10.32614/CRAN.package.bsvars) and **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
->
-> The **bpvars** packed was formerly known as **bvarPANELs**.
 > 
 > [[repo]](https://github.com/bsvars/bpvars) [[website]](https://bsvars.org/bpvars/) [[manual]](extra/bvarPANELs_0.2.pdf) [[resources]](https://bsvars.org/bpvars/#resources)
 >
@@ -91,12 +92,12 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 
 
-# bsvarTVPs
+<!-- # bsvarTVPs -->
 
-> An **R** package for Bayesian Structural VARs with Time-Varying Identification
->
-> by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker)
->
-> Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions (VARs) with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by [Camehl & Woźniak (2025)](https://doi.org/10.48550/arXiv.2502.19659) titled *Time-Varying Identification of Structural Vector Autoregressions*. The 'bsvarTVPs' package is aligned regarding objects, workflows, and code structure with the R packages 'bsvars' by [Woźniak (2024)](https://doi.org/10.32614/CRAN.package.bsvars) and 'bsvarSIGNs' by [Wang & Woźniak (2025)](https://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset.
-> 
-> [[repo]](https://github.com/bsvars/bsvarTVPs) [[working paper]](https://doi.org/10.48550/arXiv.2502.19659)
+<!-- > An **R** package for Bayesian Structural VARs with Time-Varying Identification -->
+<!-- > -->
+<!-- > by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker) -->
+<!-- > -->
+<!-- > Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions (VARs) with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by [Camehl & Woźniak (2025)](https://doi.org/10.48550/arXiv.2502.19659) titled *Time-Varying Identification of Structural Vector Autoregressions*. The 'bsvarTVPs' package is aligned regarding objects, workflows, and code structure with the R packages 'bsvars' by [Woźniak (2024)](https://doi.org/10.32614/CRAN.package.bsvars) and 'bsvarSIGNs' by [Wang & Woźniak (2025)](https://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset. -->
+<!-- >  -->
+<!-- > [[repo]](https://github.com/bsvars/bsvarTVPs) [[working paper]](https://doi.org/10.48550/arXiv.2502.19659) -->
