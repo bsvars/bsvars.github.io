@@ -25,9 +25,9 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > [[CRAN]](https://cran.r-project.org/package=bsvars) [[website]](https://bsvars.org/bsvars/) [[vignette]](http://doi.org/10.48550/arXiv.2410.15090) [[manual]](https://cran.r-project.org/web/packages/bsvars/bsvars.pdf) [[resources]](https://bsvars.org/bsvars/#resources) [[repo]](https://github.com/bsvars/bsvars)\
 >
 > **Our Publications**\
-> 1. Lütkepohl, Shang, Uzeda, & Woźniak (2025) *Partial identification of structural vector autoregressions with non-centred stochastic volatility*, **Journal of Econometrics**, DOI: [10.1016/j.jeconom.2025.106107](https://doi.org/10.1016/j.jeconom.2025.106107)\
-> 2. Lütkepohl & Woźniak (2020) *Bayesian inference for structural vector autoregressions identified by Markov-switching heteroskedasticity*, **Journal of Economic Dynamics and Control**, DOI: [10.1016/j.jedc.2020.103862](http://doi.org/10.1016/j.jedc.2020.103862)\
-> 3. Song & Woźniak (2021) *Markov Switching*, **Oxford Research Encyclopedia of Economics and Finance**, DOI: [10.1093/acrefore/9780190625979.013.174](http://doi.org/10.1093/acrefore/9780190625979.013.174)
+> Lütkepohl, Shang, Uzeda, & Woźniak (2025) **Partial identification of structural vector autoregressions with non-centred stochastic volatility**, [Journal of Econometrics](https://doi.org/10.1016/j.jeconom.2025.106107)\
+> Lütkepohl & Woźniak (2020) **Bayesian inference for structural vector autoregressions identified by Markov-switching heteroskedasticity**, [Journal of Economic Dynamics and Control](http://doi.org/10.1016/j.jedc.2020.103862)\
+> Song & Woźniak (2021) **Markov Switching**, [Oxford Research Encyclopedia of Economics and Finance](http://doi.org/10.1093/acrefore/9780190625979.013.174)
 >
 > **Youtube Recordings**\
 > [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
