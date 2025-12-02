@@ -98,6 +98,23 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 
 
+
+# StealLikeBayes
+
+<a href="https://bsvars.org/StealLikeBayes/"><img src="StealLikeBayes.png" align="right" height="139" alt="StealLikeBayes website" /></a>
+
+> A Compendium of Bayesian Statistical Routines Written in **C++**
+>
+> by [Tomasz Woźniak](https://github.com/donotdespair), [Xiaolei Wang](https://github.com/adamwang15), [Longcan Li](https://github.com/Longcando), [Shelly Xie](https://github.com/shellyxie1), [Filip Reierson](https://github.com/freierson) [Kenyon Ng](https://github.com/weiyaw)
+>
+> <a href="https://cran.r-project.org/package=StealLikeBayes"> <img src="https://www.r-pkg.org/badges/version/StealLikeBayes" width="76" height="20"/> </a> 
+[![R-CMD-check](https://github.com/bsvars/StealLikeBayes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/StealLikeBayes/actions/workflows/R-CMD-check.yaml)
+>
+> This is a compendium of **C++** routines useful for Bayesian statistics. We steal other people's **C++** code, repurpose it, and export it so developers of **R** packages can use it in their **C++** code. We actually don't steal anything, or claim that Thomas Bayes did, but copy code that is compatible with our GPL 3 licence, fully acknowledging the authorship of the original code.
+>
+> [[CRAN]](https://cran.r-project.org/package=StealLikeBayes) [[website]](https://bsvars.org/StealLikeBayes/) [[manual]](https://cran.r-project.org/web/packages/StealLikeBayes/StealLikeBayes.pdf) [[repo]](https://github.com/bsvars/StealLikeBayes)
+
+
 <!-- # bsvarTVPs -->
 
 <!-- > An **R** package for Bayesian Structural VARs with Time-Varying Identification -->
