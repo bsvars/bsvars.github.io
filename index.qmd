@@ -84,8 +84,10 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 > An **R** package for Forecasting with Bayesian Panel Vector Autoregressions
 >
-> by [Tomasz Woźniak](https://github.com/donotdespair)
+> by [Tomasz Woźniak](https://github.com/donotdespair) with contributions by [Miguel Sanchez Martinez](https://researchrepository.ilo.org/esploro/profile/miguel_sanchez_martinez)
 > 
+> *The package is designed for forecasting labour market outcomes at the International Labour Organization.*
+>
 > <a href="https://cran.r-project.org/package=bpvars"> <img src="https://www.r-pkg.org/badges/version/bpvars" width="76" height="20"/> </a>
 [![R-CMD-check](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml).
 >
