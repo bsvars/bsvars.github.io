@@ -89,13 +89,18 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > *The package is designed for forecasting labour market outcomes at the International Labour Organization.*
 >
 > <a href="https://cran.r-project.org/package=bpvars"> <img src="https://www.r-pkg.org/badges/version/bpvars" width="76" height="20"/> </a>
+<a href="https://cran.r-project.org/package=bpvars"> <img src="http://cranlogs.r-pkg.org/badges/grand-total/bpvars" width="108" height="20"/> </a>
 [![R-CMD-check](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bpvars/actions/workflows/R-CMD-check.yaml).
 >
 > Provides Bayesian estimation and forecasting of dynamic panel data using  Bayesian Panel Vector Autoregressions with hierarchical prior distributions. The models include country-specific Vector Autoregressions (VARs) that share a global prior distribution that extend the model by [Jarociński (2010)](http://doi.org/10.1002/jae.1082). Under this prior expected value, each country's system follows a global VAR with country-invariant parameters. Further flexibility is provided by the hierarchical prior structure that retains the Minnesota prior interpretation for the global VAR and features estimated prior covariance matrices, shrinkage, and persistence levels. Bayesian forecasting is developed for models including exogenous variables, allowing conditional forecasts given the future trajectories of some variables and restricted forecasts assuring that rates are forecasted to stay positive and less than 100. The package implements the model specification, estimation, and forecasting routines, facilitating coherent workflows and reproducibility. It also includes automated pseudo-out-of-sample forecasting and computation of forecasting performance measures. Beautiful plots, informative summary functions, and extensive documentation complement all this. Extraordinary computational speed is achieved thanks to employing frontier econometric and numerical techniques and algorithms written in **C++**. The **bpvars** package is aligned regarding objects, workflows, and code structure with the **R** packages **bsvars** by [Woźniak (2024)](http://doi.org/10.32614/CRAN.package.bsvars) and **bsvarSIGNs** by [Wang & Woźniak (2025)](http://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset. Copyright: 2025 International Labour Organization.
 > 
 > [[CRAN]](https://cran.r-project.org/package=bpvars)  [[website]](https://bsvars.org/bpvars/) [[manual]](https://cloud.r-project.org/web/packages/bpvars/refman/bpvars.html) [[repo]](https://github.com/bsvars/bpvars) [[resources]](https://bsvars.org/bpvars/#resources)
 >
+> **Youtube Recordings**\
+> [[International Labour Organization 2026-03](https://www.ilo.org/meetings-and-events/forecasting-labour-market-outcomes-using-bayesian-hierarchical-panel-vars) [youtube recording](https://www.youtube.com/watch?v=ef3eXbqNbr8)]\
+>
 > **Presentations**\
+> [[International Labour Organization](https://www.ilo.org/) [2026-03 featuring **bpvars** 1.0](https://bsvars.org/2026-03-bpvars-ilo/)]\
 > [[International Labour Organization](https://www.ilo.org/) [2025-03 featuring **bvarPANELs** 0.2](https://bsvars.org/2025-03-bvarPANELs-ilo/)]\
 
 
