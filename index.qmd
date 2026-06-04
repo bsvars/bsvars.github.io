@@ -30,6 +30,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > Song & Woźniak (2021) **Markov Switching**, [Oxford Research Encyclopedia of Economics and Finance](http://doi.org/10.1093/acrefore/9780190625979.013.174)
 >
 > **Youtube Recordings**\
+> [[Workshop on Open Source Forecasting](https://event.nectric.com.au/iif-osf/) [youtube recording](https://www.youtube.com/watch?v=Gmd7x0gwS7U)]\
 > [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
 > [[Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine) [youtube recording](https://www.youtube.com/watch?v=2iO0yrD0EtU)]\
 >
@@ -50,7 +51,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Xiaolei Wang](https://github.com/adamwang15) and [Tomasz Woźniak](https://github.com/donotdespair)
 >
-> *The First Prize laureate of the Di Cook Open-Source Statistical Software Award granted by the Statistical Society of Australia in 2024*
+> *The First Prize laureate of the Di Cook Open-Source Statistical Software Award granted by the [Statistical Society of Australia](https://statsoc.org.au/Di-Cook-Award) in 2024*
 >
 > <a href="https://cran.r-project.org/package=bsvarSIGNs"> <img src="https://www.r-pkg.org/badges/version/bsvarSIGNs" width="76" height="20"/> </a> 
 <a href="https://cran.r-project.org/package=bsvarSIGNs"> <img src="http://cranlogs.r-pkg.org/badges/grand-total/bsvarSIGNs" width="108" height="20"/> </a>
@@ -61,7 +62,9 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > [[CRAN]](https://cran.r-project.org/package=bsvarSIGNs) [[website]](https://bsvars.org/bsvarSIGNs/) [[vignette]](https://doi.org/10.48550%2FarXiv.2501.16711) [[manual]](https://cran.r-project.org/web/packages/bsvarSIGNs/bsvarSIGNs.pdf) [[resources]](https://bsvars.org/bsvarSIGNs/#resources) [[repo]](https://github.com/bsvars/bsvarSIGNs)\
 >
 > **Youtube Recordings**\
+> [[Workshop on Open Source Forecasting](https://event.nectric.com.au/iif-osf/) [youtube recording](https://www.youtube.com/watch?v=Gmd7x0gwS7U)]\
 > [[Workshops for Ukraine](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine) [youtube recording](https://www.youtube.com/watch?v=zjjM0l2r6gM)]\
+> [[Di Cook Open-Source Statistical Software Award Seminar](https://statsoc.org.au/Di-Cook-Award) [youtube recording](https://www.youtube.com/watch?v=0UqwxWD0s_4)]\
 > [[Forecasting for Social Good](https://www.f4sg.org/) [youtube recording](https://youtu.be/QT02OTZWW14)]\
 >
 > **Recent Presentations**\
@@ -107,6 +110,24 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 
 
 
+# bvars
+
+<a href="https://bsvars.org/bvars/"><img src="bvars.png" align="right" height="139" alt="bvars website" /></a>
+
+> An **R** package for Bayesian Forecasting with Large Vector Autoregressions
+>
+> by [Rui Liu](https://github.com/rruiliu1005), [Andrés Ramirez Hassan](https://github.com/aramir21), and [Tomasz Woźniak](https://github.com/donotdespair)
+> 
+> [![R-CMD-check](https://github.com/bsvars/bvars/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/bvars/actions/workflows/R-CMD-check.yaml).
+>
+> Provides fast and efficient procedures for Bayesian estimation and forecasting using state-of-the-art Vector Autoregressions. This package includes the model proposed by [Chan (2020)](https://doi.org/10.1080/07350015.2018.1451336), that is, a Bayesian Vector Autoregression with Minnesota priors and a flexible structure of the error term specification. The latter includes: conditional multivariate normal or Student’s t distributions, as well as homoskedastic or heteroskedastic specifications with a common volatility modelled by centred or non-centred Stochastic Volatility. Additionally, the package facilitates predictive analyses using density forecasting and forecast-error variance decompositions. All this is complemented by simple workflows, useful plots and summary functions, and comprehensive documentation. The **bvars** package aligns with **R** packages **bsvars** by [Woźniak (2024)](https://doi.org/10.32614/CRAN.package.bsvars), **bsvarSIGNs** by [Wang & Woźniak (2025)](https://doi.org/10.32614/CRAN.package.bsvarSIGNs), and **bpvars** by [Woźniak (2025)](https://doi.org/10.32614/CRAN.package.bpvars) regarding objects, workflows, and code structure, and they constitute an integrated toolset.
+> 
+> [[website]](https://bsvars.org/bvars/) [[repo]](https://github.com/bsvars/bvars) [[resources]](https://bsvars.org/bvars/#resources)
+>
+
+
+
+
 # StealLikeBayes
 
 <a href="https://bsvars.org/StealLikeBayes/"><img src="StealLikeBayes.png" align="right" height="139" alt="StealLikeBayes website" /></a>
@@ -116,19 +137,10 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 > by [Tomasz Woźniak](https://github.com/donotdespair), [Xiaolei Wang](https://github.com/adamwang15), [Longcan Li](https://github.com/Longcando), [Shelly Xie](https://github.com/shellyxie1), [Filip Reierson](https://github.com/freierson) [Kenyon Ng](https://github.com/weiyaw)
 >
 > <a href="https://cran.r-project.org/package=StealLikeBayes"> <img src="https://www.r-pkg.org/badges/version/StealLikeBayes" width="76" height="20"/> </a> 
+<a href="https://cran.r-project.org/package=StealLikeBayes"> <img src="http://cranlogs.r-pkg.org/badges/grand-total/StealLikeBayes" width="108" height="20"/> </a>
 [![R-CMD-check](https://github.com/bsvars/StealLikeBayes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bsvars/StealLikeBayes/actions/workflows/R-CMD-check.yaml)
 >
 > This is a compendium of **C++** routines useful for Bayesian statistics. We steal other people's **C++** code, repurpose it, and export it so developers of **R** packages can use it in their **C++** code. We actually don't steal anything, or claim that Thomas Bayes did, but copy code that is compatible with our GPL 3 licence, fully acknowledging the authorship of the original code.
 >
 > [[CRAN]](https://cran.r-project.org/package=StealLikeBayes) [[website]](https://bsvars.org/StealLikeBayes/) [[manual]](https://cran.r-project.org/web/packages/StealLikeBayes/StealLikeBayes.pdf) [[repo]](https://github.com/bsvars/StealLikeBayes)
 
-
-<!-- # bsvarTVPs -->
-
-<!-- > An **R** package for Bayesian Structural VARs with Time-Varying Identification -->
-<!-- > -->
-<!-- > by [Tomasz Woźniak](https://github.com/donotdespair) and [Annika Camehl](https://github.com/aschnuecker) -->
-<!-- > -->
-<!-- > Efficient algorithms for Bayesian estimation of Structural Vector Autoregressions (VARs) with Stochastic Volatility heteroskedasticity, Markov-switching and Time-Varying Identification of the Structural Matrix, and a three-level global-local hierarchical prior shrinkage for the structural and autoregressive matrices. The models were developed for a paper by [Camehl & Woźniak (2025)](https://doi.org/10.48550/arXiv.2502.19659) titled *Time-Varying Identification of Structural Vector Autoregressions*. The 'bsvarTVPs' package is aligned regarding objects, workflows, and code structure with the R packages 'bsvars' by [Woźniak (2024)](https://doi.org/10.32614/CRAN.package.bsvars) and 'bsvarSIGNs' by [Wang & Woźniak (2025)](https://doi.org/10.32614/CRAN.package.bsvarSIGNs), and they constitute an integrated toolset. -->
-<!-- >  -->
-<!-- > [[repo]](https://github.com/bsvars/bsvarTVPs) [[working paper]](https://doi.org/10.48550/arXiv.2502.19659) -->
