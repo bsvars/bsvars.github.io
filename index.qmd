@@ -89,7 +89,7 @@ We develop **R** packages for Bayesian Structural Vector Autoregressions using f
 >
 > by [Tomasz Woźniak](https://github.com/donotdespair) with contributions by [Miguel Sanchez Martinez](https://researchrepository.ilo.org/esploro/profile/miguel_sanchez_martinez)
 > 
-> *The package is designed for forecasting labour market outcomes at the International Labour Organization.*
+> *The package is designed for forecasting labour market outcomes at the [International Labour Organization](https://www.ilo.org/).*
 >
 > <a href="https://cran.r-project.org/package=bpvars"> <img src="https://www.r-pkg.org/badges/version/bpvars" width="76" height="20"/> </a>
 <a href="https://cran.r-project.org/package=bpvars"> <img src="http://cranlogs.r-pkg.org/badges/grand-total/bpvars" width="108" height="20"/> </a>
