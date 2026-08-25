@@ -2,7 +2,7 @@
 title: "bsvars"
 ---
 
-We develop **R** packages for Bayesian Structural Vector Autoregressions using frontier econometric methods and compiled code written in **C++**.
+We develop **R** packages with Bayesian methods for macroeconomic analyses using frontier econometric techniques and algorithms written in **C++**.
 
 <a href="mailto:contact@bsvars.org"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" width="40" height="40"/> </a> 
 <a href="https://github.com/bsvars/bsvars"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/github.svg" width="40" height="40"/> </a> 
